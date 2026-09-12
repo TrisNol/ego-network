@@ -1,0 +1,58 @@
+[project]
+site_name = "Ego Network"
+site_author = "Tristan Nolde"
+site_url = "https://trisnol.github.io/ego-network/"
+repo_url = "https://github.com/TrisNol/ego-network"
+repo_name = "TrisNol/ego-network"
+copyright = "&copy; 2026 Tristan Nolde"
+dev_addr = "localhost:3000"
+nav = [
+    { "Ego Network" = "README.md" },
+    { "Templates" = [
+        { "People" = "templates/people.template.md" },
+        { "Product" = "templates/product.template.md" },
+        { "Team" = "templates/team.template.md" },
+        { "Logs" = [
+            { "Call log" = "templates/log/call-log.template.md" },
+            { "Mail log" = "templates/log/mail-log.template.md" },
+            { "Meeting log" = "templates/log/meeting-log.template.md" },
+        ] },
+    ] },
+]
+
+[project.theme]
+variant = "modern"
+logo = "assets/icon.png"
+favicon = "assets/icon.ico"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+    We use cookies to recognize your repeated visits and preferences, as well
+    as to measure the effectiveness of our documentation and whether users
+    find what they're searching for. With your consent, you're helping us to
+    make our documentation better.
+"""

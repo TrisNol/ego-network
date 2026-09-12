@@ -1,0 +1,22 @@
+[project]
+name = "ego-network"
+version = "0.0.0"
+description = ""
+authors = [
+    {name = "TrisNol",email = "contact@trisnol.dev"}
+]
+license = {text = "MIT License"}
+readme = "docs/README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+docs = [
+    "zensical (>=0.0.43,<0.0.44)"
+]
