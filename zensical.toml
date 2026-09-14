@@ -8,16 +8,6 @@ copyright = "&copy; 2026 Tristan Nolde"
 dev_addr = "localhost:3000"
 nav = [
     { "Ego Network" = "README.md" },
-    { "Templates" = [
-        { "People" = "templates/people.template.md" },
-        { "Product" = "templates/product.template.md" },
-        { "Team" = "templates/team.template.md" },
-        { "Logs" = [
-            { "Call log" = "templates/log/call-log.template.md" },
-            { "Mail log" = "templates/log/mail-log.template.md" },
-            { "Meeting log" = "templates/log/meeting-log.template.md" },
-        ] },
-    ] },
 ]
 
 [project.theme]
